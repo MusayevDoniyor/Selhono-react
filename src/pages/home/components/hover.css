@@ -1,0 +1,7 @@
+div:hover {
+  h3,
+  p,
+  a {
+    color: #cda274;
+  }
+}
