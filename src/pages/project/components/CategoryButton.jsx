@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const CategoryButton = ({ isActive, onClick, children }) => {
+const CategoryButton = ({ isActive, onClick, children, to }) => {
   return (
-    <button
+    <Link
+      to={to}
       onClick={onClick}
-      className={`px-10 font-just font-semibold py-4 transition-all duration-300 rounded-2xl text-base  ${
+      className={`px-10 font-just font-semibold py-4 transition-all duration-300 rounded-2xl text-base ${
         isActive ? "bg-[#CDA274] text-white" : "bg-inherit text-black"
       }`}
       style={{
@@ -12,7 +14,7 @@ const CategoryButton = ({ isActive, onClick, children }) => {
       }}
     >
       {children}
-    </button>
+    </Link>
   );
 };
 
