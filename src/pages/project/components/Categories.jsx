@@ -1,13 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TabButton from "./CategoryButton";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 
 const Tabs = () => {
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState();
+  const location = useLocation();
 
   const handleTabClick = (index) => {
     setActiveTab(index);
   };
+
+  useEffect(() => {
+    const pathArray = location.pathname.split("/");
+    const currentTab = pathArray[pathArray.length - 1];
+    const tabIndex = ["bathroom", "bedroom", "kitchen", "living-area"].indexOf(
+      currentTab
+    );
+    setActiveTab(tabIndex !== -1 ? tabIndex : 0);
+  }, [location.pathname]);
 
   return (
     <section className="w-full mx-auto -mt-32 px-4 sm:px-6 lg:px-8">
