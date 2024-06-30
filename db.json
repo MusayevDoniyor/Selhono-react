@@ -1,44 +1,49 @@
 {
-  "Rooms": [
+  "rooms": [
     {
+      "id": "1",
       "roomName": "Bathroom1",
       "image": "/bathroom1.png",
       "category": "bathroom"
     },
     {
+      "id": "2",
       "roomName": "Bathroom2",
       "image": "/bathroom2.png",
       "category": "bathroom"
     },
-
     {
+      "id": "3",
       "roomName": "Bedroom1",
-      "image": "/bedroom1.png",
+      "image": "/house1.png",
       "category": "bedroom"
     },
     {
+      "id": "4",
       "roomName": "Bedroom2",
-      "image": "/bedroom2.png",
+      "image": "/house2.png",
       "category": "bedroom"
     },
-
     {
+      "id": "5",
       "roomName": "Kitchen1",
       "image": "/kitchen1.png",
       "category": "kitchen"
     },
     {
+      "id": "6",
       "roomName": "Kitchen2",
       "image": "/kitchen2.png",
       "category": "kitchen"
     },
-
     {
+      "id": "7",
       "roomName": "LivingArea1",
       "image": "/livingArea1.png",
       "category": "livingArea"
     },
     {
+      "id": "8",
       "roomName": "LivingArea2",
       "image": "/livingArea2.png",
       "category": "livingArea"
