@@ -25,14 +25,11 @@ const Page = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<Services />} />
             <Route path="/project" element={<Project />}>
-              <Route
-                index
-                element={<Navigate to={"bedroom"} replace></Navigate>}
-              />
+              <Route index element={<Navigate to={"bedroom"} replace />} />
               <Route path="bathroom" element={<Bathroom />} />
               <Route path="bedroom" element={<BedRoom />} />
               <Route path="kitchen" element={<Kitchen />} />
-              <Route path="living-area" element={<LivingArea />} />
+              <Route path="livingArea" element={<LivingArea />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
