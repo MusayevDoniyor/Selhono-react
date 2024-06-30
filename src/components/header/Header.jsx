@@ -36,7 +36,7 @@ const Header = () => {
               to="/"
               className="block lg:inline-block"
               onClick={() => setMenuOpen(false)}
-              activeClassName="active"
+              activeclassname="active"
             >
               Home
             </NavLink>
@@ -47,7 +47,7 @@ const Header = () => {
               to="/services"
               className="block lg:inline-block"
               onClick={() => setMenuOpen(false)}
-              activeClassName="active"
+              activeclassname="active"
             >
               Services
             </NavLink>
@@ -58,7 +58,7 @@ const Header = () => {
               to="/project"
               className="block lg:inline-block"
               onClick={() => setMenuOpen(false)}
-              activeClassName="active"
+              activeclassname="active"
             >
               Project
             </NavLink>
