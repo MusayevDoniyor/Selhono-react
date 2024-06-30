@@ -1,0 +1,47 @@
+{
+  "Rooms": [
+    {
+      "roomName": "Bathroom1",
+      "image": "/bathroom1.png",
+      "category": "bathroom"
+    },
+    {
+      "roomName": "Bathroom2",
+      "image": "/bathroom2.png",
+      "category": "bathroom"
+    },
+
+    {
+      "roomName": "Bedroom1",
+      "image": "/bedroom1.png",
+      "category": "bedroom"
+    },
+    {
+      "roomName": "Bedroom2",
+      "image": "/bedroom2.png",
+      "category": "bedroom"
+    },
+
+    {
+      "roomName": "Kitchen1",
+      "image": "/kitchen1.png",
+      "category": "kitchen"
+    },
+    {
+      "roomName": "Kitchen2",
+      "image": "/kitchen2.png",
+      "category": "kitchen"
+    },
+
+    {
+      "roomName": "LivingArea1",
+      "image": "/livingArea1.png",
+      "category": "livingArea"
+    },
+    {
+      "roomName": "LivingArea2",
+      "image": "/livingArea2.png",
+      "category": "livingArea"
+    }
+  ]
+}
